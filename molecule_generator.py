@@ -51,7 +51,7 @@ def gen_no_of_structure(n_of_structures,n_of_carbons,heteroAtom_dict) :
     mol_dict[f"mol_{i}"] = mol
   return mol_dict
 
-
+'''
 def matrix_to_structure(molec_tuple) :
   adj_matrix = molec_tuple[0]
   hetero_info = molec_tuple[1]
@@ -60,7 +60,7 @@ def matrix_to_structure(molec_tuple) :
   for i in range(0,adj_matrix.shape[0]) :
     for j in range (0,i) :
       
-
+'''
 if __name__ == "__main__" :
   heteroAtom_Dict = {"O":2,"N":3}
   first_mol_batch = gen_no_of_structure(10,5,heteroAtom_Dict)
